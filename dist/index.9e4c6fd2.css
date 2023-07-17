@@ -19,4 +19,44 @@
   padding: 10px;
 }
 
+.container {
+  flex-wrap: wrap;
+  padding: 4rem;
+  display: flex;
+}
+
+.card {
+  width: 200px;
+  margin: 10px;
+  box-shadow: 1px 1px 3px #94949487;
+}
+
+.card .card_img {
+  width: 100%;
+}
+
+.card .res_name {
+  font-size: 15px;
+  font-weight: 800;
+}
+
+.card .cuisines {
+  color: #fff;
+  background: #949090;
+  border-radius: 6px;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 4px;
+  font-size: 10px;
+}
+
+.card .rating {
+  background: #94e494;
+  border-radius: 10px;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 5px;
+  font-size: 10px;
+}
+
 /*# sourceMappingURL=index.9e4c6fd2.css.map */

@@ -17,3 +17,39 @@
 .nav-items > li{
 padding: 10px;
 }
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 4rem;
+}
+
+.card{
+    width: 200px;
+    margin: 10px;
+    box-shadow: 1px 1px 3px #94949487;
+}
+
+.card .card_img{
+    width: 100%;
+}
+
+.card .res_name{
+    font-size: 15px;
+    font-weight: 800;
+}
+.card .cuisines{
+    font-size: 10px;
+    background: #949090;
+    color: white;
+    width: fit-content;
+    padding: 4px;
+    border-radius: 6px;
+}
+.card .rating{
+    font-size: 10px;
+    background: #94e494;
+    width: fit-content;
+    border-radius: 10px;
+    padding: 5px;
+}
